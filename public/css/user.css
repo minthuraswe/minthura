@@ -1,0 +1,124 @@
+/* own class */
+
+.search-btn-bg {
+    background-color: #3F729B!important;
+}
+
+.route-link {
+    color: rgba(0, 0, 0, .5);
+}
+
+.route-link:hover {
+    color: #3F729B;
+    text-decoration: none;
+}
+
+.unicode {
+    font-family: PyidaungSu;
+}
+
+.max-height {
+    max-height: 300px;
+}
+
+
+/* customize  class */
+
+.overlay .mask {
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.zoom img,
+.zoom video {
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.zoom:hover img,
+.zoom:hover video {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+}
+
+.overlay .mask:hover {
+    opacity: 1;
+}
+
+.view .mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.flex-center {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.rgba-black-strong,
+.rgba-black-strong:after {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.flex-center p {
+    margin: 0;
+}
+
+.white-text {
+    color: #fff !important;
+}
+
+.page-item.active .page-link {
+    color: #ffffff;
+    background-color: #3F729B!important;
+    border-color: #3F729B!important;
+}
+
+.page-link:focus {
+    box-shadow: none!important;
+}
+
+.nav-link:hover,
+.active,
+.blog-name {
+    color: #3F729B!important;
+}
+
+.nav-link {
+    font-size: 1.1rem!important;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1rem!important;
+    line-height: 1;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+button:focus {
+    outline: none!important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(63,114,155)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
+}
